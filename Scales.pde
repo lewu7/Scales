@@ -5,8 +5,6 @@ void setup(){
 }
 
 void draw(){
-  System.out.println(mouseX);
-  System.out.println(mouseY);
   translate(-35,-110);
   for(int y = 0; y <= 650; y+=80) {
     for(int x = 0; x<= 650; x+=78){
