@@ -9,7 +9,7 @@ void draw(){
   for(int y = 0; y <= 650; y+=80) {
     for(int x = 0; x<= 650; x+=78){
       diamond(x,y);
-      fill(random(230),random(220),220);
+      fill((int)(Math.random()*230),(int)(Math.random()*220),220);
     }
   }
   for(int y = 0; y<=650; y+=80) {
